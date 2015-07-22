@@ -70,13 +70,13 @@ set wildmenu
 
 " 插件管理
 " 将 pathogen 自身也置于独立目录中，需指定其路径
-runtime bundle/pathogen/autoload/pathogen.vim
+"runtime bundle/pathogen/autoload/pathogen.vim
 " 运行 pathogen
-execute pathogen#infect()
+"execute pathogen#infect()
 
 " 配色方案
-set background=dark
-colorscheme solarized
+"set background=dark
+"colorscheme solarized
 "colorscheme molokai
 "colorscheme phd
 
@@ -121,7 +121,7 @@ set number
 
 " 高亮显示当前行/列
 set cursorline
-set cursorcolumn
+"set cursorcolumn
 
 " 高亮显示搜索结果
 set hlsearch
